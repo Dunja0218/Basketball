@@ -13,6 +13,14 @@
 		315E70582390EFD1003032C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315E70572390EFD1003032C3 /* Assets.xcassets */; };
 		315E705B2390EFD1003032C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315E705A2390EFD1003032C3 /* Preview Assets.xcassets */; };
 		315E705E2390EFD1003032C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315E705C2390EFD1003032C3 /* LaunchScreen.storyboard */; };
+		315E70662390F054003032C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E70652390F054003032C3 /* Player.swift */; };
+		315E70682390F250003032C3 /* PlayersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E70672390F250003032C3 /* PlayersData.swift */; };
+		315E706A2390F2E0003032C3 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E70692390F2E0003032C3 /* PlayerList.swift */; };
+		315E706C2390F462003032C3 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E706B2390F462003032C3 /* PlayerRow.swift */; };
+		315E706E2390FAB9003032C3 /* PlayerEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E706D2390FAB9003032C3 /* PlayerEditor.swift */; };
+		31818FE823AB99850094A9A9 /* GameAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31818FE723AB99850094A9A9 /* GameAnalysis.swift */; };
+		31818FEA23AB9C0C0094A9A9 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31818FE923AB9C0C0094A9A9 /* PieChart.swift */; };
+		31818FEC23AB9C310094A9A9 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31818FEB23AB9C310094A9A9 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		315E705A2390EFD1003032C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		315E705D2390EFD1003032C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315E705F2390EFD1003032C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315E70652390F054003032C3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		315E70672390F250003032C3 /* PlayersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersData.swift; sourceTree = "<group>"; };
+		315E70692390F2E0003032C3 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
+		315E706B2390F462003032C3 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		315E706D2390FAB9003032C3 /* PlayerEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEditor.swift; sourceTree = "<group>"; };
+		31818FE723AB99850094A9A9 /* GameAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAnalysis.swift; sourceTree = "<group>"; };
+		31818FE923AB9C0C0094A9A9 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		31818FEB23AB9C310094A9A9 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,14 @@
 				315E70552390EFCF003032C3 /* ContentView.swift */,
 				315E70572390EFD1003032C3 /* Assets.xcassets */,
 				315E705C2390EFD1003032C3 /* LaunchScreen.storyboard */,
+				315E70652390F054003032C3 /* Player.swift */,
+				315E70672390F250003032C3 /* PlayersData.swift */,
+				315E70692390F2E0003032C3 /* PlayerList.swift */,
+				315E706B2390F462003032C3 /* PlayerRow.swift */,
+				315E706D2390FAB9003032C3 /* PlayerEditor.swift */,
+				31818FEB23AB9C310094A9A9 /* PieChartView.swift */,
+				31818FE923AB9C0C0094A9A9 /* PieChart.swift */,
+				31818FE723AB99850094A9A9 /* GameAnalysis.swift */,
 				315E705F2390EFD1003032C3 /* Info.plist */,
 				315E70592390EFD1003032C3 /* Preview Content */,
 			);
@@ -146,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315E70682390F250003032C3 /* PlayersData.swift in Sources */,
+				315E706E2390FAB9003032C3 /* PlayerEditor.swift in Sources */,
+				315E70662390F054003032C3 /* Player.swift in Sources */,
+				315E706C2390F462003032C3 /* PlayerRow.swift in Sources */,
+				31818FEC23AB9C310094A9A9 /* PieChartView.swift in Sources */,
 				315E70522390EFCF003032C3 /* AppDelegate.swift in Sources */,
 				315E70542390EFCF003032C3 /* SceneDelegate.swift in Sources */,
+				315E706A2390F2E0003032C3 /* PlayerList.swift in Sources */,
+				31818FE823AB99850094A9A9 /* GameAnalysis.swift in Sources */,
 				315E70562390EFCF003032C3 /* ContentView.swift in Sources */,
+				31818FEA23AB9C0C0094A9A9 /* PieChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +318,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Basketball/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Basketball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +339,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Basketball/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Basketball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
